@@ -7,7 +7,7 @@ parser.add_argument('--name', help='name of docker container', default="ssh-prox
 parser.add_argument('--version', help='version tag of docker container', default="latest")
 parser.add_argument('--deploy', help='deploy docker container to remote', action='store_true')
 
-REMOTE_IMAGE_PREFIX = "mltooling/"
+REMOTE_IMAGE_PREFIX = "khulnasoft/"
 
 args, unknown = parser.parse_known_args()
 if unknown:
