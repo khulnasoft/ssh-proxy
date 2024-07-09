@@ -32,7 +32,7 @@ This SSH proxy can be deployed as a standalone docker container that allows to p
 - 🛠 Full SSH compatibility (port tunneling, scp, sftp, rsync, sshfs).
 - 📄 Basic access logging based on user logins.
 - 🐳 Easy to deploy via Docker and Kubernetes.
-- 🏗 Use it as a base image in your own Docker image to bring the ssh functionality into it (checkout the [ml-hub Dockerfile](https://github.com/khulnasoft/ml-hub/blob/1ab1c6b1b4b4b8a6fd2f321ccfb9c8f6f0e0c6eb/Dockerfile#L1) as an example)
+- 🏗 Use it as a base image in your own Docker image to bring the ssh functionality into it (checkout the [ml-recipes Dockerfile](https://github.com/khulnasoft/ml-recipes/blob/1ab1c6b1b4b4b8a6fd2f321ccfb9c8f6f0e0c6eb/Dockerfile#L1) as an example)
 
 ## Getting Started
 
